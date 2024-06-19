@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-19T21:22:39.998251918+02:00"
+    created: "2024-06-19T21:33:03.86856279+02:00"
     description: A Helm chart for testing the githubrepo
     digest: 412c6f4e2c0e6e56159c9239c2116f0e92531bd4b449ef0cede48207f3d6f3dc
     name: gitrepotest
@@ -14,7 +14,18 @@ entries:
   upgrade-rlbk:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-19T21:22:39.998731165+02:00"
+    created: "2024-06-19T21:33:03.870327325+02:00"
+    description: A Helm chart for upgrade and rollback details and updated replica
+      count 2
+    digest: 933a3756e8eeab178cc4c7c99cadd8cccc24ea0e091a42fbb66875ae3376c2d6
+    name: upgrade-rlbk
+    type: application
+    urls:
+    - upgrade-rlbk-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-19T21:33:03.869770814+02:00"
     description: A Helm chart for upgrade and rollback details.
     digest: e15d953167c0ae148c0434ad3fd9e828705bbd5016e318f425885276379038f5
     name: upgrade-rlbk
@@ -22,4 +33,4 @@ entries:
     urls:
     - upgrade-rlbk-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-19T21:22:39.9970548+02:00"
+generated: "2024-06-19T21:33:03.866138642+02:00"
